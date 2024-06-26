@@ -1,0 +1,10 @@
+Respecto a las conclusiones de la prueba ejecutada:
+1. Se enviaron aproximadamente 10.860 solicitudes exitosas durante la prueba, 3.600 solicitudes por cada escenario definido de interacción con la página. 
+2. El tiempo de respuesta promedio del 95 % de solicitudes fue de 109 ms.
+3. El tiempo de respuesta máximo obtenido fue de 222 ms el cual se dio en la ejecución del escenario https://petstore.octoperf.com/actions/Catalog.action. 
+4. No hubieron fallos en la ejecución de la prueba.
+5. Hubo un máximo de 20 solicitudes por segundo.
+6. Los usuarios virtuales se mantuvieron constantes durante la prueba. 
+7. La tasa de solicitudes se mantiene en las 20 solicitudes por segundo en la mayor cantidad de tiempo de la prueba, a excepción del inicio y final.
+
+Teniendo en cuenta estos puntos se puede concluir que la página web responde óptimamente a la carga establecida en esta prueba. 
