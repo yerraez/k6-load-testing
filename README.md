@@ -41,18 +41,18 @@ Para visualizar los resultados de la prueba en tiempo real con gráficos interac
     3.1. Iniciar Sesión en k6 Cloud
     Primero, asegúrate de tener una cuenta en k6 Cloud. Luego, inicia sesión con tus credenciales:
 
-```bash
-# Ingresa tus credenciales de k6 Cloud cuando se te solicite.
-k6 login cloud
-```
+    ```bash
+    # Ingresa tus credenciales de k6 Cloud cuando se te solicite.
+    k6 login cloud
+    ```
 
     3.2. Ejecutar la Prueba en k6 Cloud
     Después de iniciar sesión, ejecuta el siguiente comando para correr la prueba en k6 Cloud:
 
-```bash
-# Este comando subirá tu script a k6 Cloud y comenzará a ejecutar la prueba. Se pueden monitorear los gráficos y resultados en tiempo real. 
-k6 cloud load_testing.jsç
-```
+    ```bash
+    # Este comando subirá tu script a k6 Cloud y comenzará a ejecutar la prueba. Se pueden monitorear los gráficos y resultados en tiempo real. 
+    k6 cloud load_testing.js
+    ```
 
 # Importante 
 Asegúrate de que tu script load_testing.js está configurado correctamente y en el directorio desde el cual estás ejecutando estos comandos.
